@@ -96,13 +96,13 @@ tasks.register('pmdMain', Pmd) {
 //}.standardOutput.asText.get().trim()
 
 android {
-    compileSdk 37
+    compileSdk 36
     defaultConfig {
         applicationId "com.gelakinetic.mtgfam"
         minSdkVersion 21
-        targetSdk 37
-        versionCode 98
-        versionName "3.9.15"
+        targetSdk 36
+        versionCode 99
+        versionName "3.9.16"
         vectorDrawables.useSupportLibrary true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         // archivesBaseName = "$applicationId" + "_$versionName" + "_" + "$gitVersion"
