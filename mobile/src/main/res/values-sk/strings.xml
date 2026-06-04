@@ -628,4 +628,5 @@ Standard ....... Not Legal -->
     <string name="pref_show_price_on_card_view_title">"Zobraziť cenu na zobrazení karty"</string>
     <string name="pref_show_price_on_card_view_summary">"Pri prezeraní karty okamžite načítajte cenu na stránku Zobraziť kartu"</string>
     <string name="database_update_available_message">K dispozícii je aktualizácia databázy kariet. Chcete si ho stiahnuť a nainštalovať?</string>
+    <string name="no_app_to_open_link">Nenašla sa žiadna aplikácia na otvorenie tohto odkazu</string>
 </resources>
