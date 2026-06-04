@@ -632,4 +632,5 @@ Standard ....... Not Legal -->
     <string name="pref_show_price_on_card_view_title">"Mostrar precio en la vista de tarjeta"</string>
     <string name="pref_show_price_on_card_view_summary">"Al ver una tarjeta, cargue inmediatamente el precio en la página de la vista de la tarjeta"</string>
     <string name="database_update_available_message">Hay una actualización de la base de datos de tarjetas disponible. ¿Quieres descargarla e instalarla?</string>
+    <string name="no_app_to_open_link">No se encontró ninguna aplicación para abrir este enlace</string>
 </resources>

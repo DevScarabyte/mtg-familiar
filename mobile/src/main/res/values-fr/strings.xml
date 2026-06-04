@@ -614,4 +614,5 @@ Standard ....... Not Legal -->
     <string name="pref_show_price_on_card_view_title">"Afficher le prix sur la vue de la carte"</string>
     <string name="pref_show_price_on_card_view_summary">"Lorsque vous affichez une carte, chargez immédiatement le prix de la page Affichage de la carte"</string>
     <string name="database_update_available_message">Une mise à jour de la base de données de cartes est disponible. Souhaitez-vous la télécharger et l\'installer ?</string>
+    <string name="no_app_to_open_link">Aucune application trouvée pour ouvrir ce lien</string>
 </resources>

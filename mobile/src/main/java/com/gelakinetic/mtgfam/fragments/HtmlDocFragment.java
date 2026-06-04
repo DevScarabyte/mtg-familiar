@@ -125,7 +125,7 @@ public class HtmlDocFragment extends FamiliarFragment {
                     try {
                         requireContext().startActivity(i);
                     } catch (ActivityNotFoundException e) {
-                        Toast.makeText(requireContext(), "No app found to open this link", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(requireContext(), getString(R.string.no_app_to_open_link), Toast.LENGTH_SHORT).show();
                     }
                 }
                 return true;

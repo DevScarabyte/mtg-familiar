@@ -610,4 +610,5 @@ Good luck, and have fun!
     <string name="down">Down</string>
     <string name="up">Up</string>
     <string name="database_update_available_message">There\'s an available card database update. Would you like to download and install it?</string>
+    <string name="no_app_to_open_link">No app found to open this link</string>
 </resources>
