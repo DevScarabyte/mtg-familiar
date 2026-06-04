@@ -20,6 +20,8 @@
 package com.gelakinetic.mtgfam.fragments;
 
 import android.content.Intent;
+import android.content.ActivityNotFoundException;
+import android.widget.Toast;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.net.Uri;
@@ -120,7 +122,11 @@ public class HtmlDocFragment extends FamiliarFragment {
                 } else {
                     /* Otherwise launch links externally */
                     Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                    requireContext().startActivity(i);
+                    try {
+                        requireContext().startActivity(i);
+                    } catch (ActivityNotFoundException e) {
+                        Toast.makeText(requireContext(), "No app found to open this link", Toast.LENGTH_SHORT).show();
+                    }
                 }
                 return true;
             }
